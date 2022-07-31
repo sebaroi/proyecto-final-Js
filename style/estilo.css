@@ -1,0 +1,113 @@
+.marcoProducto {
+    display: flex ;
+    background-color: white;
+    height: 430px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: default;
+    transition: all 400ms ease;
+    border: 1px #a09f9f solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px #464545; 
+    margin: 15px;}
+
+.marcoProducto p {
+    font-weight: bolder;
+    margin: auto;
+    text-align: center; }
+
+.marcoProducto hr {
+    height: 3px;
+    border-width: 0;
+    background-color: #4c00ff;
+    margin-left: 40px;
+    margin-right: 40px; }
+
+.marcoProducto img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px; }
+
+.marcoProducto:hover {
+    box-shadow: 5px 5px 20px black;
+    transform: translateY(-3%); }
+
+.imagenProducto {
+object-fit: contain;
+height: 40%;
+width: 100%; }
+
+.textoProducto {
+height: 60%;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+margin: 5px;
+font-weight: bolder; }
+
+.marcoDetalleProducto {
+height: 400px;
+width: 100%;
+flex-direction: column;
+justify-content: space-between;
+cursor: default;
+margin-top: 20px; }
+
+.marcoDetalleProducto img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%; }
+
+.fondo {
+background-color: white; }
+
+.detalleProducto {
+text-align: center;
+font-weight: bold;
+height: 400px;
+width: 100%;
+font-family: roboto; }
+
+.descripcionInferior {
+text-align: left; }
+
+
+.botonComprar {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer; }
+  
+  .button {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-bottom: 1rem; }
+    .button:hover {
+      box-shadow: 0 4px 16px #318aac;
+      transition: all 0.2s ease; }
+  
+  .compraCarrrito {
+    text-align: right; }
+  
+  .linea {
+    display: inline-block; }
+  
+
+    .row {
+        text-align: center;
+        font-family: Roboto;
+        width: 100%; }
+    
